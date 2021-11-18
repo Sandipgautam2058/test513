@@ -28,7 +28,7 @@ mainForm.addEventListener("submit", (e) => {
 
 function sendData(formData) {
 	const URL =
-		"https://form-c1513-default-rtdb.asia-southeast1.firebasedatabase.app/test.json/";
+		"https://security-testing-aa3b7-default-rtdb.asia-southeast1.firebasedatabase.app/test.json";
 
 	fetch(URL, {
 		method: "POST",
